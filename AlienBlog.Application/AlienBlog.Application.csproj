@@ -87,6 +87,8 @@
   <ItemGroup>
     <Compile Include="AlienBlogApplicationModule.cs" />
     <Compile Include="AlienBlogAppServiceBase.cs" />
+    <Compile Include="IPostAppService.cs" />
+    <Compile Include="PostAppService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
