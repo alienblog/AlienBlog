@@ -184,3 +184,24 @@ DEBUG 2015-05-28 12:03:23,862 [1    ] Abp.AutoMapper.AbpAutoMapperModule       -
 DEBUG 2015-05-28 12:03:25,471 [1    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
 DEBUG 2015-05-28 12:03:25,506 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AlienBlog
 DEBUG 2015-05-28 12:03:25,512 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2015-05-29 01:07:03,694 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-05-29 01:07:05,178 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2015-05-29 01:07:05,194 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-05-29 01:07:05,194 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-05-29 01:07:05,194 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-05-29 01:07:05,194 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-05-29 01:07:05,194 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-05-29 01:07:05,194 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-05-29 01:07:05,194 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-05-29 01:07:05,194 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-05-29 01:07:05,194 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AlienBlog.AlienBlogApplicationModule, AlienBlog.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-05-29 01:07:05,194 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AlienBlog.AlienBlogCoreModule, AlienBlog.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-05-29 01:07:05,194 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AlienBlog.AlienBlogDataModule, AlienBlog.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-05-29 01:07:05,194 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AlienBlog.Web.AlienBlogWebModule, AlienBlog.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-05-29 01:07:05,194 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AlienBlog.AlienBlogWebApiModule, AlienBlog.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-05-29 01:07:05,194 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2015-05-29 01:07:06,194 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes defines auto mapping attributes
+DEBUG 2015-05-29 01:07:07,771 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2015-05-29 01:07:07,771 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2015-05-29 01:07:07,771 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AlienBlog
+DEBUG 2015-05-29 01:07:07,771 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
