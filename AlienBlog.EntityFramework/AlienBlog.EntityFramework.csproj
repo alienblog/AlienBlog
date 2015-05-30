@@ -117,12 +117,21 @@
   <ItemGroup>
     <Compile Include="EntityFramework\AlienBlogDbContext.cs" />
     <Compile Include="EntityFramework\Repositories\AlienBlogRepositoryBase.cs" />
+    <Compile Include="EntityFramework\Repositories\PostRepository.cs" />
+    <Compile Include="EntityFramework\Repositories\SiteSettingRepository.cs" />
+    <Compile Include="EntityFramework\Repositories\TagRepository.cs" />
+    <Compile Include="Migrations\201505300659155_Update-blogentities.cs" />
+    <Compile Include="Migrations\201505300659155_Update-blogentities.Designer.cs">
+      <DependentUpon>201505300659155_Update-blogentities.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="AlienBlogDataModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -130,6 +139,11 @@
       <Project>{17298EA0-AF73-4F30-B6F1-2066100D7D74}</Project>
       <Name>AlienBlog.Core</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201505300659155_Update-blogentities.resx">
+      <DependentUpon>201505300659155_Update-blogentities.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />

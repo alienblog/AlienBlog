@@ -10,9 +10,9 @@ namespace AlienBlog
 {
 	public class PostAppService : ApplicationService, IPostAppService
 	{
-		private readonly IRepository<Post> _postRepository;
+		private readonly IPostRepository _postRepository;
 
-		public PostAppService(IRepository<Post> postRepository)
+		public PostAppService(IPostRepository postRepository)
 		{
 			_postRepository = postRepository;
 		}
